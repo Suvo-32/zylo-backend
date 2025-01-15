@@ -20,7 +20,7 @@ Follow the steps below to install and set up the project locally:
 
 ### Prerequisites
 
-- PHP >= 8.1
+- PHP >= 8.3
 - Composer
 - Laravel 11
 - MySQL
