@@ -1,0 +1,49 @@
+# Laravel specific files
+/vendor/
+!/vendor/autoload.php
+/public/storage
+/storage/*.key
+/.env
+.env.*
+.env.local
+
+# Ignoring all .env files except .env.example
+!.env.example
+
+# Node modules
+/node_modules/
+
+# Laravel log files
+/storage/logs/*.log
+
+# Cache, compiled, and other files
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Compiled classes
+/vendor/composer/*
+
+# IDE files
+*.idea/*
+*.vscode/*
+*.phpstorm.meta.php
+.phpunit.result.cache
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore testing files
+/tests/output/
+tests/output/
+
+# Ignore specific backups
+*.bak
+
+# Ignore any unnecessary personal files
+*.local
+*.private
